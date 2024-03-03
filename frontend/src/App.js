@@ -1,13 +1,24 @@
- 
-// Filename - App.js
- 
-// Importing modules
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Imageform from './components/form';
- 
-export default function App() {
+import Home from "./pages/Home";
+import Legal from "./Pages/Legal";
+import NotFound from "./Pages/NotFound";
+import Appointment from "./Pages/Appointment";
+
+function App() {
   return (
-    <Imageform/>
-  )
+    <div className="App">
+      <Router basename="/Health-Plus">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/legal" element={<Legal />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
+
+export default App;
