@@ -7,7 +7,6 @@ import BookAppointment from '../components/BookAppointment';
 import Reviews from '../components/Reviews';
 import Doctors from '../components/Doctors';
 import Footer from '../components/Footer';
-import './home.css'
 
 function Home() {
   return (
