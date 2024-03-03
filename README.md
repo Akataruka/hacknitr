@@ -15,9 +15,13 @@ This is a react + flask project with tensorflow is being used for the DCNN model
 
 # ML Model Description
 ` Used Deep Convolutional Neural Network for predicting the type of skin disease and identification `
+
 ![Screenshot 2024-03-03 111833](https://github.com/Akataruka/hacknitr/assets/121378361/d8867b7c-e5fd-44b9-bcb2-4006f8025bd5)
 
 - Total Params Used : 182,663 (713.53 KB)
+# Accuracy
+
+![image](https://github.com/Akataruka/hacknitr/assets/121378361/ad1209b6-0e12-4ad6-828b-bdf6c2daac85)
 
 # Features of Frontend (Using React)
 - Easily schedule appointments with the specialists.
