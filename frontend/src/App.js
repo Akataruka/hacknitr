@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./App.css";
-import Home from "./pages/Home";
-import Legal from "./Pages/Legal";
-import NotFound from "./Pages/NotFound";
-import Appointment from "./Pages/Appointment";
+import Home from './pages/Home';
+import Legal from './pages/Legal';
+import NotFound from './pages/NotFound';
+import Appointment from './pages/Appointment';
 
 function App() {
   return (
