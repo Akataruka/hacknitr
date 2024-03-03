@@ -25,3 +25,9 @@ This is a react + flask project with tensorflow is being used for the DCNN model
 - Responsive UI design for seamless user experience across devices.
 - Utilizes React-Toastify for notifications, React Router DOM for page routing, and FontAwesomeIcon for icons.
 - Deployed using GitHub Pages for easy access and sharing.
+
+# Futuristic Scope
+- Deployment of Dental conditions detection using Computer Vision
+- Connecting the nearby Health care Professional to enhance the chatbot experience and give faster accessibility
+- Community development of emergency help of nearby available peoples
+   
